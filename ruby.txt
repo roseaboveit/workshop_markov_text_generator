@@ -1,0 +1,49 @@
+This book is a tutorial and reference for the Ruby programming language. Use Ruby, and you'll write better code, be more productive, and enjoy programming more.
+
+These are bold claims, but we think that after reading this book you'll agree with them. And we have the experience to back up this belief.
+
+As Pragmatic Programmers we've tried many, many languages in our search for tools to make our lives easier, for tools to help us do our jobs better. Until now, though, we'd always been frustrated by the languages we were using.
+
+Our job is to solve problems, not spoonfeed compilers, so we like dynamic languages that adapt to us, without arbitrary, rigid rules. We need clarity so we can communicate using our code. We value conciseness and the ability to express a requirement in code accurately and efficiently. The less code we write, the less that can go wrong. (And our wrists and fingers are thankful, too.)
+
+We want to be as productive as possible, so we want our code to run the first time; time spent in the debugger is time stolen from the development clock. It also helps if we can try out code as we edit it; if you have to wait for a 2-hour make cycle, you may as well be using punch cards and submitting your work for batch compilation.
+
+We want a language that works at a high level of abstraction. The higher level the language, the less time we spend translating our requirements into code.
+
+When we discovered Ruby, we realized that we'd found what we'd been looking for. More than any other language with which we have worked, Ruby stays out of your way. You can concentrate on solving the problem at hand, instead of struggling with compiler and language issues. That's how it can help you become a better programmer: by giving you the chance to spend your time creating solutions for your users, not for the compiler.
+
+Take a true object-oriented language, such as Smalltalk. Drop the unfamiliar syntax and move to more conventional, file-based source code. Now add in a good measure of the flexibility and convenience of languages such as Python and Perl.
+
+You end up with Ruby.
+
+OO aficionados will find much to like in Ruby: things such as pure object orientation (everything's an object), metaclasses, closures, iterators, and ubiquitous heterogeneous collections. Smalltalk users will feel right at home (and C++ and Java users will feel jealous).
+
+At the same time, Perl and Python wizards will find many of their favorite features: full regular expression support, tight integration with the underlying operating system, convenient shortcuts, and dynamic evaluation.
+
+Ruby is easy to learn. Everyday tasks are simple to code, and once you've done them, they are easy to maintain and grow. Apparently difficult things often turn out not to have been difficult after all. Ruby follows the Principle of Least Surprise---things work the way you would expect them to, with very few special cases or exceptions. And that really does make a difference when you're programming.
+
+We call Ruby a transparent language. By that we mean that Ruby doesn't obscure the solutions you write behind lots of syntax and the need to churn out reams of support code just to get simple things done. With Ruby you write programs close to the problem domain. Rather than constantly mapping your ideas and designs down to the pedestrian level of most languages, with Ruby you'll find you can express them directly and express them elegantly. This means you code faster. It also means your programs stay readable and maintainable.
+
+Using Ruby, we are constantly amazed at how much code we can write in one sitting, code that works the first time. There are very few syntax errors, no type violations, and far fewer bugs than usual. This makes sense: there's less to get wrong. No bothersome semicolons to type mechanically at the end of each line. No troublesome type declarations to keep in sync (especially in separate files). No unnecessary words just to keep the compiler happy. No error-prone framework code.
+
+So why learn Ruby? Because we think it will help you program better. It will help you to focus on the problem at hand, with fewer distractions. It will make your life easier.
+
+In the old days, the distinction between languages was simple: they were either compiled, like C or Fortran, or interpreted, like BASIC. Compiled languages gave you speed and low-level access; interpreted languages were higher-level but slower.
+
+Times change, and things aren't that simple anymore. Some language designers have taken to calling their creations ``scripting languages.'' By this, we guess they mean that their languages are interpreted and can be used to replace batch files and shell scripts, orchestrating the behavior of other programs and the underlying operating system. Perl, TCL, and Python have all been called scripting languages.
+
+What exactly is a scripting language? Frankly we don't know if it's a distinction worth making. In Ruby, you can access all the underlying operating system features. You can do the same stuff in Ruby that you can in Perl or Python, and you can do it more cleanly. But Ruby is fundamentally different. It is a true programming language, too, with strong theoretical roots and an elegant, lightweight syntax. You could hack together a mess of ``scripts'' with Ruby, but you probably won't. Instead, you'll be more inclined to engineer a solution, to produce a program that is easy to understand, simple to maintain, and a piece of cake to extend and reuse in the future.
+
+Although we have used Ruby for scripting jobs, most of the time we use it as a general-purpose programming language. We've used it to write GUI applications and middle-tier server processes, and we're using it to format large parts of this book. Others have used it for managing server machines and databases. Ruby is serving Web pages, interfacing to databases and generating dynamic content. People are writing artificial intelligence and machine learning programs in Ruby, and at least one person is using it to investigate natural evolution. Ruby's finding a home as a vehicle for exploratory mathematics. And people all over the world are using it as a way of gluing together all their different applications. It truly is a great language for producing solutions in a wide variety of problem domains.
+
+Ruby is not the universal panacea for programmers' problems. There will always be times when you'll need a particular language: the environment may dictate it, you may have special libraries you need, performance concerns, or simply an issue with training. We haven't given up languages such as Java and C++ entirely (although there are times when we wish we could).
+
+However, Ruby is probably more applicable than you might think. It is easy to extend, both from within the language and by linking in third-party libraries. It is portable across a number of platforms. It's relatively lightweight and consumes only modest system resources. And it's easy to learn; we've known people who've put Ruby code into production systems within a day of picking up drafts of this book. We've used Ruby to implement parts of an X11 window manager, a task that's normally considered severe C coding. Ruby excelled, and helped us write code in hours that would otherwise have taken days.
+
+Once you get comfortable with Ruby, we think you'll keep coming back to it as your language of choice.
+
+So we'd just finished writing The Pragmatic Programmer, our families had just started talking to us again, and suddenly we felt the need to write another book. Why? We guess it comes down to a kind of missionary zeal.
+
+Ruby was created by Yukihiro Matsumoto (Matz) in Japan. Since 1995, its popularity in Japan has grown at an astounding rate; there are rumors that Ruby is more popular than Python in Japan. But to date, much of the detailed Ruby documentation is in Japanese. It probably isn't a programming language you'd just stumble across.
+
+We wanted to spread the word, to have more people outside Japan using Ruby and enjoying the benefits, so we decided to document Ruby in English. And what started out as a small project just sort of grew.... 
